@@ -2,14 +2,15 @@ body{
     
 font-family: 'Poppins', sans-serif;
 }
-h1{
+
+.border-style{
     font-size: 50px;
     font-family: 'Playfair Display', serif;
     border-left: 5px  solid;
+
     border-image-slice: 1;
     border-left-color: tomato;
     padding-inline: 15px;
-    
 }
 h3{
     font-weight: 150px;
@@ -32,11 +33,42 @@ span{
 .half-width{
     width: 50%;
     padding-left: 10%;
+    padding-top: 5%;
     
 }
-.left-side{
-    padding-top: 5%;
-}
-.half-width img{
+ .half-width img{
     width: 60%;
+}
+.image-position{
+    padding-top: 5px;
+}
+.my-mission{
+    text-align: center;
+    font-size: 35px;
+}
+.mission-parts{
+    padding-left: 15px;
+    
+    float: left;
+    width: 25%;
+    height: 350px;
+    padding-top: 20px;
+    text-align:start ;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.mission-parts img{
+    width: 35%;
+}
+.left{
+    margin-left: 120px;
+}
+.first{
+    background-color: wheat;
+}
+.second{
+    background-color: rgb(247, 222, 247);
+}
+.third{
+    background-color: rgb(201, 218, 167);
 }
