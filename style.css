@@ -29,6 +29,7 @@ span{
 .flexible-container{
     display:flex;
     margin-bottom: 10px;
+   
 }
 .half-width{
     width: 50%;
@@ -39,11 +40,11 @@ span{
     
 }
  .half-width img{
-    width: 60%;
+    width: 80%;
 }
-.image-position{
+/* .image-position{
     padding-top: 5px;
-}    
+}     */
 .my-mission{
     text-align: center;
     font-size: 35px;
